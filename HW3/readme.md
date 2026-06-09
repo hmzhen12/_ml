@@ -4,15 +4,6 @@ This repository features a basic **Multi-Layer Perceptron (MLP)** implementation
 
 ---
 
-## Table of Contents
-- [About the XOR Problem](#-about-the-xor-problem)
-- [Network Architecture](#-network-architecture)
-- [Code Workflow Breakdown](#-code-workflow-breakdown)
-- [Core Components](#-core-components)
-- [How to Run](#-how-to-run)
-
----
-
 ## About the XOR Problem
 
 The XOR gate outputs `1` (True) only when its two binary inputs are different. If the inputs are identical, it outputs `0` (False).
