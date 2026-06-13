@@ -1,0 +1,107 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "what's up",
+        "howdy",
+        "greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What do you need?",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "take care",
+        "quit",
+        "exit",
+        "I'm done"
+      ],
+      "responses": [
+        "Goodbye! Come back if you have more questions.",
+        "See you later!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful",
+        "thanks a lot",
+        "appreciate it",
+        "cheers",
+        "thx"
+      ],
+      "responses": [
+        "No problem!",
+        "Glad I could help.",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "what are your hours",
+        "when are you open",
+        "office hours",
+        "when can I come in",
+        "are you open on weekends",
+        "opening times",
+        "what time do you close"
+      ],
+      "responses": [
+        "We are open Monday through Friday, 9am to 5pm.",
+        "Office hours are 9-5 on weekdays."
+      ]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "how do I enroll",
+        "how do I register",
+        "sign up for classes",
+        "enrollment process",
+        "register for a course",
+        "add a class",
+        "class registration",
+        "how to enroll in a class"
+      ],
+      "responses": [
+        "To enroll, log in to the student portal and select your courses during registration week.",
+        "Registration opens online during the first week of each month."
+      ]
+    },
+    {
+      "tag": "tuition",
+      "patterns": [
+        "how much does it cost",
+        "tuition fees",
+        "cost per credit",
+        "how much is tuition",
+        "financial aid",
+        "scholarships",
+        "cost of attendance",
+        "how much is a semester"
+      ],
+      "responses": [
+        "Tuition is $350 per credit hour. Financial aid applications open each October.",
+        "Contact the financial aid office for scholarship information."
+      ]
+    }
+  ]
+}
